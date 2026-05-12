@@ -8,7 +8,7 @@ function login($usuario, $senha){
         header('Location: ../painel.php');
         exit();
     }else{
-        $_SESSION['erro'] = 'Usuário ou senha inválido';
+        $_SESSION['erro'] = 'Usuário ou senha inválido!';
         header('Location: ../login.php');
         exit();
     }    
