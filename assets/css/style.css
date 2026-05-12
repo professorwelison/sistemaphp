@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    padding: 10px 20px 0px 20px;
+    margin-top: 10px;
+}
+
+.form_login{
+    background-color: #1b1a1a;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form_login > input[type='text'], input[type='password'] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #1b1a1a;
+    padding: 20px;
+    color: white;
+}
